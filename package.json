@@ -1,0 +1,12 @@
+{
+  "name": "@curateco/unit-conversion",
+  "version": "1.0.2",
+  "description": "Unit converter helper",
+  "main": "./src/index.js",
+  "repository": "https://github.com/curateco/Unit-Conversion",
+  "scripts": {},
+  "author": "Curate",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,20 @@
+{
+  "quantity": [ { "text": "Item", "value": "item", "baseUnit": true } ],
+  "weight": [
+    { "text": "Ounce", "value": "ounce", "baseUnit": true, "system": "imperial" },
+    { "text": "Pound", "value": "pound", "system": "imperial", "conversion": 16 },
+    { "text": "Gram", "value": "gram", "baseUnit": true, "system": "metric", "conversion": 0 },
+    { "text": "Kilogram", "value": "kilogram", "system": "metric", "conversion": 1000 }
+  ],
+  "volume": [
+    { "text": "Teaspoon", "value": "teaspoon", "baseUnit": true, "system": "imperial" },
+    { "text": "Tablespoon", "value": "tablespoon", "system": "imperial", "conversion": 3 },
+    { "text": "Fluid Oz", "value": "fluid oz", "system": "imperial", "conversion": 6 },
+    { "text": "Cup", "value": "cup", "system": "imperial", "conversion": 48 },
+    { "text": "Pint", "value": "pint", "system": "imperial", "conversion": 96 },
+    { "text": "Quart", "value": "quart", "system": "imperial", "conversion": 192 },
+    { "text": "US Gallon", "value": "gallon", "system": "imperial", "conversion": 768 },
+    { "text": "Milliliter", "value": "milliliter", "baseUnit": true, "system": "metric" },
+    { "text": "Liter", "value": "liter", "system": "metric", "conversion": 1000 }
+  ]
+}
