@@ -3,10 +3,16 @@
   "version": "1.0.2",
   "description": "Unit converter helper",
   "main": "./src/index.js",
-  "repository": "https://github.com/curateco/Unit-Conversion",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curateco/Unit-Conversion.git"
+  },
   "scripts": {},
   "author": "Curate",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/curateco/Unit-Conversion/issues"
+  },
+  "homepage": "https://github.com/curateco/Unit-Conversion#readme"
 }
