@@ -4,6 +4,7 @@ const unitConversions = {
   quantity: [],
   weight: [{ start: 'metric', end: 'imperial', factor: 28.3495 }],
   volume: [{ start: 'metric', end: 'imperial', factor: 4.9289 }],
+  length: [{ start: 'metric', end: 'imperial', factor: 2.54 }]
 };
 
 class Unit {

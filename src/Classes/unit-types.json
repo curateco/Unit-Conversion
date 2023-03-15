@@ -16,5 +16,14 @@
     { "text": "US Gallon", "value": "gallon", "system": "imperial", "conversion": 768 },
     { "text": "Milliliter", "value": "milliliter", "baseUnit": true, "system": "metric" },
     { "text": "Liter", "value": "liter", "system": "metric", "conversion": 1000 }
+  ],
+  "length": [
+    { "text": "Inch", "value": "inch", "baseUnit": true, "system": "imperial" },
+    { "text": "Foot", "value": "foot", "system": "imperial", "conversion": 12 },
+    { "text": "Yard", "value": "yard", "system": "imperial", "conversion": 36 },
+    { "text": "Mile", "value": "mile", "system": "imperial", "conversion": 63360 },
+    { "text": "Centimeter", "value": "centimeter", "baseUnit": true, "system": "metric" },
+    { "text": "Meter", "value": "meter", "system": "metric", "conversion": 100 },
+    { "text": "Kilometer", "value": "kilometer", "system": "metric", "conversion": 100000 }
   ]
 }
