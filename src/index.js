@@ -116,4 +116,5 @@ class UnitConverter {
 module.exports = {
   Unit: Unit,
   UnitConverter: UnitConverter,
+  UnitTypes: unitTypes,
 };
