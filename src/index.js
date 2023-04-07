@@ -47,7 +47,7 @@ class Unit {
 
     if (type === 'cost') {
       let newValue = value * this.conversion;
-      return round ? parseFloat(newValue).toFixed(2) : newValue;
+      return round ? parseFloat(newValue).toFixed(8) : newValue;
     }
     if (type === 'quantity') {
       let newValue = value / this.conversion;
