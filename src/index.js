@@ -35,7 +35,7 @@ class Unit {
   }
 
   convertToBase(type, value) {
-    if (this.baseUnit) return value;
+    if (this.baseUnit) return parseFloat(value);
 
     if (type === 'cost') return parseFloat(value / this.conversion);
     if (type === 'quantity') return parseFloat(value * this.conversion);
