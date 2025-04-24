@@ -39,7 +39,7 @@ class Unit {
 
     if (type === 'cost') return value / this.conversion;
     if (type === 'quantity') return value * this.conversion;
-    return value;
+    return parseFloat(value);
   }
 
   convertFromBase(type, value, round = false) {
